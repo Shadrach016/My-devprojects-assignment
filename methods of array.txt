@@ -1,0 +1,8 @@
+common array methods;
+push()- add a data to the end of an array
+pop()- remove the last item
+unshift()-add to beginning
+shift()- remove the first item
+includes()- check if a certain exists in an array
+slice()copy part of an array
+splice()remove or add items from an array

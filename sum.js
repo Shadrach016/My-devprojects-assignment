@@ -1,0 +1,17 @@
+const prompt = require("prompt-sync")();
+
+let num = Number(prompt("Enter any numbers: "));
+
+ let sum = 0;
+
+while(num > 0) {
+ let digit = num % 10;
+sum = sum + digit;
+ num = (num - digit) / 10;
+}
+
+console.log(sum)
+
+
+
+        
