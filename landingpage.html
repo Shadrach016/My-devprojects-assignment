@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AnimePahe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+
+<div class="logo">
+<img src="animepahe1-removebg-preview.png" alt="logo">
+</div>
+
+<div class="links">
+<a href="#">home</a>
+<a href="#">anime</a>
+<a href="#">queue</a>
+</div>
+
+<input class="bar" type="text" placeholder="Search">
+
+</div>
+
+
+<h2 class="title">Latest Releases</h2>
+
+
+<div class="anime-grid">
+
+<div class="anime-grid img">
+
+<img src="download 1.jpg">
+<img src="download2.jpg">
+<img src="download3.jpg">
+<img src="download4.jpg">
+<img src="download5.jpg">
+<img src="download6.jpg">
+<img src="download7.jpg">
+<img src="download8.jpg">
+<img src="download9.jpg">
+<img src="download10.jpg">
+<img src="download11.jpg">
+<img src="download12.jpg">
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+<style>
+ body{
+margin:0;
+background:black;
+color:white;
+font-family:Arial;
+}
+
+.navbar{
+display:flex;
+align-items:center;
+padding:0px 80x;
+}
+
+.links a{
+margin:15px;
+color:white;
+text-decoration:none;
+padding-bottom: px;
+}
+
+.logo img{
+height:150px;
+}
+
+.bar{
+padding:8px;
+width:220px;
+margin-left: 20px;
+}
+
+.title{
+margin-left:40px;
+
+}
+
+.anime-grid{
+display:grid;
+grid-template-columns:repeat(3, 1fr);
+gap:10px;
+padding-left:20px;
+padding-right: 20px;
+;
+}
+
+.anime-grid img{
+width:390px;
+object-fit:cover;
+border-radius:2px;
+margin:auto;
+
+}
+.anime-grid img:hover{
+    width: 400px;
+    transition-duration: 1s;
+    cursor: pointer;
+    
+
+}
+</style>
